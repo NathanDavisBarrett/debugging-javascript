@@ -11,7 +11,7 @@ function onClick(e) {
   }
 
   // setup URL
-  let url = "http://numberapi.com/" + number + "/" + "type" + "?json";
+  let url = "http://numberapi.com/" + number + "/" + type + "?json";
   // call API
   fetch(url)
     .then(function(response) {
