@@ -29,7 +29,7 @@ function onClick(e) {
 }
 
 function updateResult(info) {
-  document.getElementById('results').textContent = info;
+  document.getElementById('result').textContent = info;
 }
 
 document.getElementById('woo').addEventListener('click', onClick);
